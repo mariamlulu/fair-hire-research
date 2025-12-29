@@ -21,14 +21,16 @@ This project investigates the relative importance of skills and gender in predic
   - Wage model: R² (coefficient of determination)
 
 ## Key Results
-- **Employment Model:**
-  - Skills-only AUC: [placeholder]
-  - Skills + gender AUC: [placeholder]
-  - Incremental lift from gender: [placeholder]
-- **Wage Model:**
-  - Skills-only R²: [placeholder]
-  - Skills + gender R²: [placeholder]
-  - Incremental lift from gender: [placeholder]
+
+### Employment (Skilled workers)
+- Skills-only AUC: 0.9497
+- Skills + gender AUC: 0.9498
+- Incremental lift from gender: 0.00012
+
+### Wages (Skilled & employed)
+- Skills-only R²: 0.2773
+- Skills + gender R²: 0.2917
+- Incremental R² from gender: 0.0144
 
 > In both models, the inclusion of gender provides negligible incremental predictive power once skills and occupation are controlled for.
 
